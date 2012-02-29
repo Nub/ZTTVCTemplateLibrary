@@ -15,8 +15,8 @@
 		4B55616614FECE4C00F2C23F /* ZTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55616514FECE4C00F2C23F /* ZTAppDelegate.m */; };
 		4B55616914FECE4C00F2C23F /* ZTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55616814FECE4C00F2C23F /* ZTViewController.m */; };
 		4B55616C14FECE4C00F2C23F /* ZTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B55616A14FECE4C00F2C23F /* ZTViewController.xib */; };
-		4B55617714FECE7C00F2C23F /* ZTTVCTemplateLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B55617614FECE7C00F2C23F /* ZTTVCTemplateLibrary.m */; };
 		4B55617914FECFEA00F2C23F /* CellTemplateLibrary.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B55617814FECFEA00F2C23F /* CellTemplateLibrary.xib */; };
+		4B8AC9AB14FED7FD00DE6EC7 /* ZTTVCTemplateLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8AC9AA14FED7FD00DE6EC7 /* ZTTVCTemplateLibrary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +33,9 @@
 		4B55616714FECE4C00F2C23F /* ZTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTViewController.h; sourceTree = "<group>"; };
 		4B55616814FECE4C00F2C23F /* ZTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTViewController.m; sourceTree = "<group>"; };
 		4B55616B14FECE4C00F2C23F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZTViewController.xib; sourceTree = "<group>"; };
-		4B55617514FECE7C00F2C23F /* ZTTVCTemplateLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTTVCTemplateLibrary.h; path = ../Classes/ZTTVCTemplateLibrary.h; sourceTree = "<group>"; };
-		4B55617614FECE7C00F2C23F /* ZTTVCTemplateLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTTVCTemplateLibrary.m; path = ../Classes/ZTTVCTemplateLibrary.m; sourceTree = "<group>"; };
 		4B55617814FECFEA00F2C23F /* CellTemplateLibrary.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellTemplateLibrary.xib; sourceTree = "<group>"; };
+		4B8AC9A914FED7FD00DE6EC7 /* ZTTVCTemplateLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTVCTemplateLibrary.h; sourceTree = "<group>"; };
+		4B8AC9AA14FED7FD00DE6EC7 /* ZTTVCTemplateLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTVCTemplateLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 		4B55614614FECE4C00F2C23F = {
 			isa = PBXGroup;
 			children = (
-				4B55617514FECE7C00F2C23F /* ZTTVCTemplateLibrary.h */,
-				4B55617614FECE7C00F2C23F /* ZTTVCTemplateLibrary.m */,
+				4B8AC9A914FED7FD00DE6EC7 /* ZTTVCTemplateLibrary.h */,
+				4B8AC9AA14FED7FD00DE6EC7 /* ZTTVCTemplateLibrary.m */,
 				4B55615B14FECE4C00F2C23F /* ZTTVCTemplateLibraryDemo */,
 				4B55615414FECE4C00F2C23F /* Frameworks */,
 				4B55615214FECE4C00F2C23F /* Products */,
@@ -174,7 +174,7 @@
 				4B55616214FECE4C00F2C23F /* main.m in Sources */,
 				4B55616614FECE4C00F2C23F /* ZTAppDelegate.m in Sources */,
 				4B55616914FECE4C00F2C23F /* ZTViewController.m in Sources */,
-				4B55617714FECE7C00F2C23F /* ZTTVCTemplateLibrary.m in Sources */,
+				4B8AC9AB14FED7FD00DE6EC7 /* ZTTVCTemplateLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +288,7 @@
 				4B55617414FECE4C00F2C23F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
